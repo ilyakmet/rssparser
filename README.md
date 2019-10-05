@@ -8,11 +8,15 @@ https://rssfeedparser.herokuapp.com/
 
 ### Build and Install Packages
 ```bash
-$ curl https://raw.githubusercontent.com/ilyakmet/rssparser/master/install.sh | sh
+$ git clone https://github.com/ilyakmet/rssparser
 ```
 
 ```bash
 $ cd rssparser
+```
+
+```bash
+$ bash install.sh
 ```
 
 ### Run RSS Parser
