@@ -1,0 +1,43 @@
+{
+  "name": "rssparser",
+  "version": "1.0.0",
+  "description": "rssparser",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "rssparser": "dist/bin/rssparser.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyakmet/rssparser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyakmet/rssparser/issues"
+  },
+  "homepage": "https://github.com/ilyakmet/rssparser#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "mocha": "^6.2.1"
+  },
+  "dependencies": {
+    "feed-read": "0.0.1"
+  }
+}
