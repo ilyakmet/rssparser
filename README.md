@@ -12,7 +12,7 @@ $ curl https://raw.githubusercontent.com/ilyakmet/rssparser/master/install.sh | 
 ```
 
 ```bash
-$ cd zillowParser
+$ cd rssparser
 ```
 
 ### Run RSS Parser
