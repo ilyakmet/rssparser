@@ -1,6 +1,10 @@
 # rssparser
+RSS feed parser.
 
-## Usage
+## Try it
+https://rssfeedparser.herokuapp.com/
+
+## Local Usage
 
 ### Build and Install Packages
 ```bash
